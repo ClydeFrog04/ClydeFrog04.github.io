@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Test post"
+title: "Test Post"
 date: 2018-02-13 03:20:00 +0000
 Categories: jekyll update
 ---
-This is just a test post
+This is just a test post. Eventually this might be a more useful site, but at the moment, contains no useful information.
