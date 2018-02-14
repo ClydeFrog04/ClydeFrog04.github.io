@@ -13,7 +13,7 @@ In this post I will cover:
 4. Extra Stuff
 
 Here is a screenshot of a level from the game(this is taken with the black removed in order to show full maze)
-![Game Screenshot](images/mazegame/FullGameScreenshot.png)
+![Game Screenshot](images/mazegame/FullGameScreenshot)
 
 
 The idea I had for this game came from something I found online. I can't seem to find a reference to it anymore, but if I find it I will share it here. The basic idea is a maze game that starts with the maze totally blacked out. The player simply has to explore the maze to light it up. As the player moves, a 3x3 grid around the player will light up whatever cells are not currently lit. Those cells will remain lit throughout the rest of the level. 
