@@ -19,7 +19,7 @@ Here is a screenshot of a level from the game(this is taken with the black remov
 Game Available Here
 ===================
 
-If you are interested in seeing the final product, it is available for free <a href="https://github.com/ClydeFrog04/regan.github.io" target="_blank">here</a>.
+If you are interested in seeing the final product, it is available for free <a href="https://github.com/ClydeFrog04/regan.github.io" target="_blank">here</a>. Keep in mind there are still some kinks yet to be worked out, but it works mostly.
 
 
 Basic Idea for Game
@@ -44,6 +44,15 @@ Each maze is made up of a grid of maze cells. Each cell is an object with a few 
 
 After the grid is generated, the code then picks a cell at random, we'll call this cell the guideCell. I included some code so I can control whether I want the guidCell to be randomly picked or picked following some rules. However, for this post let's just assume it is randomly picked, though it makes no difference. We'll also say that, for this example, the guideCell happens to be the bottom left cell, or the cell at (0,0). When a cell is visited, I mark it blue just so I can see visually how the cells are being visited. So after the first cell is visited we get:  
 ![Grid One Visited](images/MazeGame/GridOneCell.png)
+
+Now, we check all of the current cell's(our guideCell) neighbors. In this case, our guideCell has two valid neighbors, the cell at (0,1) and the cell at (1,0). Those are the cells directly above and directly to the right. In order for a cell to be valid, it has to be directly adjacent to the guidCell, and itself be unvisited. Once we know what cells are valid cells, we can pick randomly between all of them, and that cell will become the new guideCell, and the previous guideCell will be marked as visited. As a side note, each new guideCell will only have, at max, 3 valid neighbors to choose from. Only the initial guideCell can have 4 valid neighbors. Before we can move on and assign a new guideCell, there is one more thing we have to do. We have to keep track of which direction we move so we can remove the walls between those two cells. For this example, our next guideCell will be the cell directly north of the current guideCell. The steps to properly move to the next guide cell are these:
+1. Mark the current guideCell as visited
+2. Decide what direction the next cell is, and remove that wall in that direction from the current cell
+3. Assign the next cell as the guideCell
+4. Remove the wall from the direction we just came from
+
+These steps are really simple if you think about what they are doing. The only confusing part of these steps is 4. It's not that complicated but is something important to keep in mind. If we move north from our guideCell, that guideCell will have it's north wall removed. Then we set the cell to the north as the new guideCell, and remove it's south wall since we just came from the cell to the south. So for our example, we are moving north. After all of these steps are executed, we get this:  
+![New guideCell](images/MazeGame/Cell01Visited.png)
 
 
 
