@@ -32,5 +32,5 @@ Algorithm development
 I ended up using my own implementation of [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm).
 
 this is <a href="https://en.wikipedia.org/wiki/Prim%27s_algorithm" target="_blank">prim's</a> algorithm.
-this is an [example link](www.google.com).
+this is an [example link. Nothing more.](www.google.com).
 this is an [example link with title](www.google.com "With a title").
