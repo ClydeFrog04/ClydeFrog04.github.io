@@ -29,7 +29,7 @@ The player's goal is to find the blue fish that spawns randomly in the maze. Onc
 Algorithm development
 =====================
 
-I ended up using my own implementation of Prim's algorithm.
+I ended up using my own implementation of [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm).
 
 this is an [example link](www.google.com).
 this is an [example link with title](www.google.com "With a title").
