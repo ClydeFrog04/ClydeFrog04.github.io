@@ -15,6 +15,7 @@ In this post I will cover:
 Here is a screenshot of a level from the game(this is taken with the black removed in order to show full maze)
 ![Game Screenshot](images/MazeGame/FullGameScreenshot.png)
 
+
 Basic idea for game
 ===================
 
@@ -23,3 +24,12 @@ The idea I had for this game came from something I found online. I can't seem to
 The player encounters one enemy that moves randomly throughout the maze. The player can shoot this enemy to gain more time and get rid of the enemy from the maze. 
 
 The player's goal is to find the blue fish that spawns randomly in the maze. Once the player finds the goal fish, the next maze is automatically generated. Each new maze is one cell bigger than the last. The first maze starts at 5x5, the next being 6x6 and so on.
+
+
+Algorithm development
+=====================
+
+I ended up using my own implementation of Prim's algorithm.
+
+this is an [example link](www.google.com).
+this is an [example link with title](www.google.com "With a title").
