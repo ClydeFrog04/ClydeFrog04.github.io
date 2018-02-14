@@ -1,7 +1,7 @@
 ---
 layout: page
 title: More Pages
-permalink: /Nabout/
+permalink: /about/
 ---
 
 This page contains nothing useful.
