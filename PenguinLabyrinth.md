@@ -1,7 +1,7 @@
 ---
 layout: page
-title: More Pages
-permalink: /TestPageAdd/
+title: Penguin Labyrinth
+permalink: /PenguinLabyrinth/
 ---
 
 This page contains nothing useful.
