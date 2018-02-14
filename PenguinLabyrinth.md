@@ -54,6 +54,9 @@ Now, we check all of the current cell's(our guideCell) neighbors. In this case, 
 These steps are really simple if you think about what they are doing. The only confusing part of these steps is 4. It's not that complicated but is something important to keep in mind. If we move north from our guideCell, that guideCell will have it's north wall removed. Then we set the cell to the north as the new guideCell, and remove it's south wall since we just came from the cell to the south. So for our example, we are moving north. After all of these steps are executed, we get this:  
 ![New guideCell](images/MazeGame/Cell01Visited.png)
 
+Now that we understand how it works, let's travel a bit faster now. From our curent cell let's follow this path: North, East, South, East, East, North, West. Each time following the above steps to make sure each cell's properties are properly modified. We end up with this partial travel:  
+![Partial Traverse](images/MazeGame/PartialPathTraverse.png)
+
 
 
 
