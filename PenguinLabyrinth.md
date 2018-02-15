@@ -4,7 +4,7 @@ title: Penguin Labyrinth
 permalink: /PenguinLabyrinth/
 ---
 
-This page is going to be dedicated to walking through the development of my 2D Penguin Labyrinth game I made this past semester. 
+This page is going to be dedicated to walking through the development of my 2D Penguin Labyrinth game I made for school. This post will help anyone interested in game development to understand the process. It will also prove helpful for anyone looking for a maze generation implementation in Unity. When I started this project I was surprised how little reference there is out there for this particular problem.
 
 In this post I will cover:
 1. Algorithm Development
@@ -57,8 +57,13 @@ These steps are really simple if you think about what they are doing. The only c
 Now that we understand how it works, let's travel a bit faster now. From our curent cell let's follow this path: North, East, South, East, East, North, West. Each time following the above steps to make sure each cell's properties are properly modified. We end up with this partial travel:  
 ![Partial Traverse](images/MazeGame/PartialPathTraverse.png)
 
+This works great up until we hit a dead end. That is, a cell that doesn't have any valid neighbors. From our current guideCell, if we follow this path: North, North, West, West, South, East, we will end up with a dead end:  
+![Dead End](images/MazeGame/DeadEnd.png)
 
+From here it looks like there is nothing to do but end the generation. This is where using a Stack comes in handy. A Stack is a data structure, similar to a List. Stacks simulate a stack in real life. If you have a pile of objects, let's say a pile of hockey pucks, you can stack them on top of each other. When you want to remove one, you have to remove the one on top, which would also be the most recently placed puck. We can use this idea and data structure to solve our dead end problem. We'll call our stack pathHistory. We add more more step to our cell movement steps. Now each time we assign a new guideCell, we will also push that cell to our pathHistory stack. 
 
+This means that when we get to a dead end, we can pop the current guideCell off our stack, and check if the new cell at the top of the stack has any valid neighbors. If it does, we check how many it has, pick one, and repeat all of the steps we've been following to generate a path. If the next cell has no valid neighbors, we will continue this pop/check structure until we either find a cell with valid neighbors, or our pathHistory stack runs out of cells. If our pathHistory stack runs out of cells, our generation is actually complete and we have a fully generated maze. Using our current maze with this idea, we pop cells until we run into the cell at (2,4) which is the cell in the middle of the top row. This only has one valid neighbor, so we will go East from here. From the next cell we will follow this path: South, East, North. This gives us another dead end:
+![Dead End Two](images/MazeGame/DeadEndTwo.png)
 
 
 
