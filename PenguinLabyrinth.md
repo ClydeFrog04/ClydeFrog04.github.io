@@ -12,14 +12,14 @@ In this post I will cover:
 3. Feature Development(player characteristics, enemy characteristics, etc.)
 4. Extra Stuff
 
-Here is a screenshot of a level from the game(this is taken with the black removed in order to show full maze)
+Here is a screenshot of a level from the game(this is taken with the black removed in order to show the full maze)
 ![Game Screenshot](images/MazeGame/FullGameScreenshot.png)
 
 
 Game Available Here
 ===================
 
-If you are interested in seeing the final product, it is available for free <a href="https://github.com/ClydeFrog04/regan.github.io" target="_blank">here</a>. Keep in mind there are still some kinks yet to be worked out, but it works mostly.
+If you are interested in seeing the mostly finished version, it is available for free <a href="https://github.com/ClydeFrog04/regan.github.io" target="_blank">here</a>. Keep in mind there are still some minor bugs, but the game is playable.
 
 
 Basic Idea for Game
