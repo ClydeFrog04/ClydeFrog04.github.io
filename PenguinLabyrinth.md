@@ -19,7 +19,7 @@ Here is a screenshot of a level from the game(this is taken with the black remov
 Game Available Here
 ===================
 
-If you are interested in seeing the mostly finished version, it is available for free <a href="https://github.com/ClydeFrog04/regan.github.io" target="_blank">here</a>. Keep in mind there are still some minor bugs, but the game is playable.
+If you are interested in seeing the mostly finished version, it is available for free <a href="https://clydefrog04.github.io/Downloads" target="_blank">here</a>. Keep in mind there are still some minor bugs, but the game is playable.
 
 
 Basic Idea for Game
