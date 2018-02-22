@@ -69,9 +69,5 @@ Rinse and repeat from here, pop the stack until we find a valid neighbor, then c
 ![Finished Maze](images/MazeGame/FinishedMaze.png)
 
 
-just adding words
 
-
-
-
-
+different words
