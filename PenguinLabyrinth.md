@@ -67,6 +67,3 @@ This means that when we get to a dead end, we can pop the current guideCell off 
 
 Rinse and repeat from here, pop the stack until we find a valid neighbor, then continue path generation. I've finished the generation, and marked the final guideCell in red so you can see where we end up:  
 ![Finished Maze](images/MazeGame/FinishedMaze.png)
-
-
-different words
