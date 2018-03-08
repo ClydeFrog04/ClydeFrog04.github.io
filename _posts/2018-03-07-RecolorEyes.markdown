@@ -5,8 +5,8 @@ date: 2018-03-07 03:20:00 +0000
 Categories: jekyll update
 ---
 
-How to change your eye color in Photoshop
-=========================================
+**How to change your eye color in Photoshop**
+=============================================
 
 **PAGE IN PROGRESS. PHOTOS COMING SOON**
 
