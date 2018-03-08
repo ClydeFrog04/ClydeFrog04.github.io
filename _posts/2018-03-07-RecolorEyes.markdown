@@ -17,4 +17,3 @@ How to change your eye color in Photoshop
 5. Add an adjustment layer
 * Adding a curves adjustment layer will be the easiest way for a beginner to recolor their eyes. After the layer is added, you simply drag the adjustment handle in the curves adjustment settings, and you should see your eye changing color.
 * You can also change your eye color and other aspects of your eye using any of the other adjustment layers. Try them out and see how they affect your eye.
-        * Testing a sub bullet. Two tabs
