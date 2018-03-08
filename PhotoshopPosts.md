@@ -12,7 +12,7 @@ permalink: /PhotoshopPosts/
 <h1 class="page-heading">Progress Updates</h1>
 
 <ul class="post-list">
-{% for post in site.posts %}
+{% for post in /PhotoshopPosts/ %}
 <li>
 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -25,11 +25,5 @@ permalink: /PhotoshopPosts/
 <!--
  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
  -->
-
-</div>
-
-<div>
-
-<p>If you have any suggestions for anything I should work on, or anything I can do better, send me an email!</p>
 
 </div>
