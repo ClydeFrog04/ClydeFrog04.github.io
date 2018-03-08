@@ -8,6 +8,8 @@ Categories: jekyll update
 How to change your eye color in Photoshop
 =========================================
 
+**PAGE IN PROGRESS. PHOTOS COMING SOON**
+
 1. Open Photoshop
 2. Open picture of eye you'd like to change the color of.
 * If you do not have a picture of an eye to use, you can download the same one I'll be using <a href="/Images/eyeToRecolor.jpg" download="EyePicture">here. </a> 
