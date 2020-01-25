@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Update"
+date: 2020-01-25 10:30:00 +0000
+Categories: jekyll update
+---
+
+**Update**
+=============================================
+
+**PAGE IN PROGRESS. Probably never to be finished**
+
+It has been a long time since I have updated anything on this site. I will most likely never be posting here again. I started this website as a way to learn web development, and while it was a a ton of fun making and designing this site, it is wildly out of date. This framework was most likely old and outdated when I started this site, but it was relatively easy to use, and more importantly very fast to use. I got this entire site done in a day or two. While it isn't overly impressive, it is functional. I will soon be learning a much more useful and up to date(for now) framework and be making a new site to share my projects on. I'll be learning react development with python backend, which will give me many more options for design and so much more control of the functionality of my site over jekyll. 
